@@ -13,18 +13,6 @@ Praktikum 2: membuat aplikasi Dart berbasis console untuk mempelajari dasar-dasa
 - Flutter SDK 3.47.2 / Dart 3.13.2
 - Visual Studio Code + ekstensi Flutter & Dart
 
-## Cara Menjalankan
-
-Jalankan dari terminal di dalam folder ini:
-
-```bash
-dart run ex1_statement.dart
-```
-
-Khusus `ex17_baca_input.dart` (butuh input keyboard), jalankan lewat terminal lalu ketik nilainya.
-
-Di VS Code: buka file `.dart` lalu tekan **F5** atau klik tombol **▶ Run** di pojok kanan atas editor.
-
 ## Daftar Program
 
 | No | File | Materi |
@@ -56,13 +44,10 @@ Di VS Code: buka file `.dart` lalu tekan **F5** atau klik tombol **▶ Run** di 
 
 ## Catatan Perbaikan Kode
 
-Beberapa kode pada modul sengaja berisi error untuk diperbaiki, serta disesuaikan dengan null safety Dart 3:
+Beberapa kode pada modul berisi error untuk diperbaiki, serta disesuaikan dengan null safety Dart 3:
 
 - `ex4` — identifier `nama depan`, `2dimensi`, `tanda#` diperbaiki menjadi `namaDepan`, `dimensi2`, `tanda`
 - `ex7` — deklarasi diringkas satu baris, rumus keliling diperbaiki menjadi `2 * (panjang + lebar)`
 - `ex8`, `ex17` — penyesuaian null safety (`int?`, operator `!`)
 - `ex22`, `ex23` — `List<int>()` dan `Map()` tidak valid di Dart 3, diganti `List<int>.filled(0, 0, growable: true)` dan map literal `{}`
 
----
-
-**Selamat Mengerjakan! 🎓**
