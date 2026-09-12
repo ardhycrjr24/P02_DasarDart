@@ -1,7 +1,7 @@
 # P02 - Dasar-Dasar Pemrograman Dart
 
 > **Nama:** Ardiansyah
-> **Kelas:** Rekayasa Perangkat Lunak (RPL)
+> **Kelas:** RPL3D Rekayasa Perangkat Lunak (RPL)
 > **Mata Kuliah:** Pemrograman Multiplatform
 > **Politeknik Negeri Bengkalis**
 
