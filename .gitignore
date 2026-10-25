@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+*.iml
+*.swp
+
+# Dart
+.dart_tool/
+.packages
+build/
+*.dill
+*.exe
+
+# Laporan dan file sementara Office
+*.docx
+~$*
+
+# Log dan environment
+*.log
+.env
+.env.local
+.env.*.local

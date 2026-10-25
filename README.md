@@ -1,53 +1,59 @@
+**Nama:** Ardiansyah  
+**NIM:** 6304250091  
+**Kelas:** RPL3D Rekayasa Perangkat Lunak (RPL)  
+**Dosen Pengampu:** Depandi Enda, S.ST., M.Kom
+
 # P02 - Dasar-Dasar Pemrograman Dart
 
-> **Nama:** Ardiansyah
-> **Kelas:** RPL3D Rekayasa Perangkat Lunak (RPL)
-> **Mata Kuliah:** Pemrograman Multiplatform
-> **Politeknik Negeri Bengkalis**
+Praktikum 2 mata kuliah Pemrograman Multiplatform: mempelajari dasar-dasar pemrograman Dart melalui 24 program console, mulai dari statement, variabel, dan tipe data hingga class dan objek.
 
-Praktikum 2: membuat aplikasi Dart berbasis console untuk mempelajari dasar-dasar pemrograman Dart — variabel, tipe data, identifier, konstanta, list, map, dan objek.
+## Tujuan
 
-## Alat & Bahan
+- Memahami dasar-dasar pemrograman Dart.
+- Menggunakan variabel dan tipe data pada bahasa Dart.
+- Membuat aplikasi Dart berbasis console.
+
+## Alat yang Digunakan
 
 - macOS (Apple Silicon)
 - Flutter SDK 3.47.2 / Dart 3.13.2
-- Visual Studio Code + ekstensi Flutter & Dart
+- Visual Studio Code + extension Dart
+- Git
+- Terminal
 
-## Daftar Program
+## Struktur Folder
 
-| No | File | Materi |
-|----|------|--------|
-| 1 | `ex1_statement.dart` | Statement / pernyataan |
-| 2 | `ex2_blok.dart` | Blok program (if, while) |
-| 3 | `ex3_comment.dart` | Komentar |
-| 4 | `ex4_identifier.dart` | Pengenal (identifier) |
-| 5 | `ex5_semua_objek.dart` | Semua adalah objek (`is`) |
-| 6 | `ex6_identitas_objek.dart` | Identitas objek (hashCode, identical) |
-| 7 | `ex7_variabel1.dart` | Deklarasi variabel |
-| 8 | `ex8_variabel2.dart` | Nilai default variabel (null) |
-| 9 | `ex9_variabel3.dart` | Inisialisasi variabel |
-| 10 | `ex10_var.dart` | Variabel `var` |
-| 11 | `ex11_dynamic.dart` | Variabel `dynamic` |
-| 12 | `ex12_variabel_global.dart` | Variabel global |
-| 13 | `ex13_variabel_lokal.dart` | Variabel lokal |
-| 14 | `ex14_cetak_output1.dart` | Menampilkan data (`print`) |
-| 15 | `ex15_cetak_output2.dart` | `write()` dan `writeln()` |
-| 16 | `ex16_interpolasi_string.dart` | Interpolasi string |
-| 17 | `ex17_baca_input.dart` | Membaca input keyboard |
-| 18 | `ex18_konstanta.dart` | Konstanta (`final`, `const`) |
-| 19 | `ex19_tipe_bilangan.dart` | Tipe bilangan (int, double, num) |
-| 20 | `ex20_tipe_teks.dart` | Tipe teks (String) |
-| 21 | `ex21_tipe_logika.dart` | Tipe logika (bool) |
-| 22 | `ex22_tipe_list.dart` | Tipe List |
-| 23 | `ex23_tipe_map.dart` | Tipe Map |
-| 24 | `ex24_tipe_objek.dart` | Tipe objek (class) |
+```text
+P02_DasarDart/
+├── ex1_statement.dart           # Statement / pernyataan
+├── ex2_blok.dart                # Blok program (if, while)
+├── ex3_comment.dart             # Komentar
+├── ex4_identifier.dart          # Pengenal (identifier)
+├── ex5_semua_objek.dart         # Semua adalah objek (is)
+├── ex6_identitas_objek.dart     # Identitas objek (hashCode, identical)
+├── ex7_variabel1.dart           # Deklarasi variabel
+├── ex8_variabel2.dart           # Nilai default variabel
+├── ex9_variabel3.dart           # Inisialisasi variabel
+├── ex10_var.dart                # Variabel var
+├── ex11_dynamic.dart            # Variabel dynamic
+├── ex12_variabel_global.dart    # Variabel global
+├── ex13_variabel_lokal.dart     # Variabel lokal
+├── ex14_cetak_output1.dart      # Menampilkan data (print)
+├── ex15_cetak_output2.dart      # write() dan writeln()
+├── ex16_interpolasi_string.dart # Interpolasi string
+├── ex17_baca_input.dart         # Membaca input keyboard
+├── ex18_konstanta.dart          # Konstanta (final, const)
+├── ex19_tipe_bilangan.dart      # Tipe bilangan (int, double, num)
+├── ex20_tipe_teks.dart          # Tipe teks (String)
+├── ex21_tipe_logika.dart        # Tipe logika (bool)
+├── ex22_tipe_list.dart          # Tipe List
+├── ex23_tipe_map.dart           # Tipe Map
+└── ex24_tipe_objek.dart         # Tipe objek (class Person)
+```
 
-## Catatan Perbaikan Kode
+## Catatan
 
-Beberapa kode pada modul berisi error untuk diperbaiki, serta disesuaikan dengan null safety Dart 3:
-
-- `ex4` — identifier `nama depan`, `2dimensi`, `tanda#` diperbaiki menjadi `namaDepan`, `dimensi2`, `tanda`
-- `ex7` — deklarasi diringkas satu baris, rumus keliling diperbaiki menjadi `2 * (panjang + lebar)`
-- `ex8`, `ex17` — penyesuaian null safety (`int?`, operator `!`)
-- `ex22`, `ex23` — `List<int>()` dan `Map()` tidak valid di Dart 3, diganti `List<int>.filled(0, 0, growable: true)` dan map literal `{}`
-
+- `ex4_identifier.dart` diperbaiki dari identifier tidak valid (`nama depan`, `2dimensi`, `tanda#`) menjadi `namaDepan`, `dimensi2`, dan `tanda`.
+- `ex7_variabel1.dart` diringkas deklarasinya dan rumus keliling disesuaikan menjadi `2 * (panjang + lebar)`.
+- `ex8_variabel2.dart` dan `ex17_baca_input.dart` disesuaikan dengan null safety Dart 3 (`int?`, operator `!`).
+- `ex22_tipe_list.dart` dan `ex23_tipe_map.dart` menggunakan `List<int>.filled(0, 0, growable: true)` dan literal map `{}` karena konstruktor tanpa argumen tidak tersedia di Dart 3.
