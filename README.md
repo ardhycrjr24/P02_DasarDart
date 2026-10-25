@@ -1,9 +1,9 @@
+# P02 - Dasar-Dasar Pemrograman Dart
+
 **Nama:** Ardiansyah  
 **NIM:** 6304250091  
 **Kelas:** RPL3D Rekayasa Perangkat Lunak (RPL)  
 **Dosen Pengampu:** Depandi Enda, S.ST., M.Kom
-
-# P02 - Dasar-Dasar Pemrograman Dart
 
 Praktikum 2 mata kuliah Pemrograman Multiplatform: mempelajari dasar-dasar pemrograman Dart melalui 24 program console, mulai dari statement, variabel, dan tipe data hingga class dan objek.
 
